@@ -11,7 +11,7 @@ export const getProductDetailsAction = (productId:string):any => {
     }
 };
 export const START_PRODUCT_LOAD = "start_random_load";
-export const SET_PRODUCT_DATA = "set_random_cocktail_data";
+export const SET_PRODUCT_DATA = "set_random_cocktail_data"; //todo change
 
 export const startProductLoadAction = () => ({
         type: START_PRODUCT_LOAD
